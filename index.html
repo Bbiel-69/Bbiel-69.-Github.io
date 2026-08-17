@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>teste</title>
+<style>body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("gay.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+</style>
+</head>
+<body>
+<button style=" padding:15px 30px ;font-size :18px "onclick="irAleatorio() ">testes</button>
+
+    <script>
+        function irAleatorio() {
+            const linkA = "https://youtube.com.br";
+            const linkB = "https://instagram.com";
+            if (Math.random() < 0.5) {
+                window.location.href = linkA;
+            } else {
+                window.location.href = linkB;
+            }
+        }
+    </script>
+<br><br>
+<a href="https://www.instagram.com/m.gabriel.l.m?igsh=MTM4M2xqbXh5aG9iYw==">
+<button style="padding :15px 30px ;font-size :18px ">insta </button></a>
+
+</body>
+</html>
